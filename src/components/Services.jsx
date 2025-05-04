@@ -7,7 +7,7 @@ import { GoArrowDownRight } from "react-icons/go";
 gsap.registerPlugin(SplitText, ScrollTrigger);
 
 const Services = () => {
-       const helpHeadingRef = useRef(null);
+       const helpHeadingRef = useRef();
 
        useEffect(() => {
               if (helpHeadingRef.current) {

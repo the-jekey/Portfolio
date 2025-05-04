@@ -9,7 +9,7 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger';
 gsap.registerPlugin(SplitText, ScrollTrigger);
 
 const Footer = () => {
-       const headingRef = useRef(null);
+       const headingRef = useRef();
 
        useEffect(() => {
               (async function () {

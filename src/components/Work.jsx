@@ -7,7 +7,7 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger';
 gsap.registerPlugin(SplitText, ScrollTrigger);
 
 const Work = () => {
-       const headingRef = useRef(null);
+       const headingRef = useRef();
 
        useEffect(() => {
               if (headingRef.current) {
@@ -42,7 +42,7 @@ const Work = () => {
                                           <p className='text-[15px] font-bold md:text-2xl lg:text-[15px]'>Architecture & Stone art </p>
                                    </div>
                                    <div className="img">
-                                          <img loading="lazy" className= ' p-5 cursor-pointer bg-black h-[30vh] my-4 mx-auto rounded-2xl md:h-[40vh] w-[90%]  object-cover lg:h-[60vh] lg:w-[50%]' src="../src/assets/work.avif" alt="project image " />
+                                          <img loading="lazy" className=' p-5 cursor-pointer bg-black h-[30vh] my-4 mx-auto rounded-2xl md:h-[40vh] w-[90%]  object-cover lg:h-[60vh] lg:w-[50%]' src="{work}" alt="project image " />
                                    </div>
                             </div>
                             <div className="projects py-6 text-center">
@@ -51,7 +51,7 @@ const Work = () => {
                                           <p className='text-[15px] font-bold md:text-2xl lg:text-[15px]'>Portfolio</p>
                                    </div>
                                    <div className="img">
-                                          <img loading="lazy" className= ' p-5 cursor-pointer bg-black h-[30vh] my-4 mx-auto rounded-2xl md:h-[40vh] w-[90%]  object-cover lg:h-[60vh] lg:w-[50%]' src="../src/assets/portfolio.avif" alt="project image " />
+                                          <img loading="lazy" className=' p-5 cursor-pointer bg-black h-[30vh] my-4 mx-auto rounded-2xl md:h-[40vh] w-[90%]  object-cover lg:h-[60vh] lg:w-[50%]' src="../src/assets/portfolio.avif" alt="project image " />
                                    </div>
                             </div>
                             <div className="projects py-6 text-center">

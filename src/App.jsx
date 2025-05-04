@@ -16,13 +16,13 @@ const App = () => {
 
   const locomotiveScroll = new LocomotiveScroll();
 
-  const navbarRef = useRef(null);
-  const mainRef = useRef(null);
-  const servicesRef = useRef(null);
-  const workRef = useRef(null);
-  const aboutRef = useRef(null);
-  const footerRef = useRef(null);
-  const footertwoRef = useRef(null);
+  const navbarRef = useRef();
+  const mainRef = useRef();
+  const servicesRef = useRef();
+  const workRef = useRef();
+  const aboutRef = useRef();
+  const footerRef = useRef();
+  const footertwoRef = useRef();
 
   const tl = gsap.timeline();
 

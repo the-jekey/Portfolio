@@ -4,6 +4,8 @@ import React, { useRef, useEffect, useState } from 'react'
 import { GoArrowUpRight } from "react-icons/go";
 import { getCalApi } from "@calcom/embed-react";
 
+
+
 const Main = () => {
        const boxRef = useRef()
        const pRef = useRef()
@@ -59,7 +61,7 @@ const Main = () => {
                                           data-cal-link="jekey-fnptfy/30min"
                                           data-cal-config='{"layout":"month_view","theme":"auto"}' className='px-12 py-4  text-1xl font-bold tracking-tight rounded-full bg-zinc-500 flex items-center gap-1 cursor-pointer hover:scale-102 active:scale-100 transition-all md:px-14 md:py-6 md:text-[2.5vw] lg:py-4 lg:mx-3 lg:text-[1.5vw]'>Book a Call <GoArrowUpRight /></button>
                                    <div ref={imageRef} className="image ">
-                                          <img loading="lazy" className='myimage h-[27vh] rounded-2xl px-4 mt-[3vh] md:mt-[1vh] md:rounded-2xl lg:relative lg:h-[50vh]  lg:top-[-33vh] left-[90vh] ' src="../src/assets/image.avif" alt="" />
+                                          <img loading="lazy" className='myimage h-[27vh] rounded-2xl px-4 mt-[3vh] md:mt-[1vh] md:rounded-2xl lg:relative lg:h-[50vh]  lg:top-[-33vh] left-[90vh] ' src="/image.avif" alt="" />
                                    </div>
                                    <div className="text flex justify-end px-2">
                                           <h2 className='text-[15px] absolute bottom-[10px] md:top-[35vw] lg:text-1xl lg:font-bold z-20  lg:top-37 '>Web Designer <br />& Developer ! </h2>
