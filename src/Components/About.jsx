@@ -1,5 +1,4 @@
 import React from 'react'
-import ScrambledText from './ScrambledText.JSX'
 import TextReveal from './TextReveal'
 
 
