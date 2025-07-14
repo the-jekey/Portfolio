@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+:root {
+       --primary-color: #F2F2F2;
+       --secondary-color: #7d7c7c;
+}
+
+@font-face {
+       font-family: "Font";
+       src: url(/Akzidenz-grotesk-black.ttf);
+}
+
+@font-face {
+       font-family: "FontOne";
+       src: url(/trade-gothic-lt-std-bold-condensed-no-20-5872def1d27d8.otf);
+}
+
+h1 {
+       opacity: 70%;
+}
+
+p {
+       opacity: 70%;
+}
+
+span {
+       opacity: 70%;
+}
+li{
+       opacity: 70%;
+}
