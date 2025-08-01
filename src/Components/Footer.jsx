@@ -107,16 +107,15 @@ const Footer = () => {
                                           <h1 className='uppercase text-[7vh] md:text-[12vh] leading-none  opacity-75 lg:text-[25vh]'>TheJekey&copy;</h1>
                                    </TextReveal>
                                    <TextReveal delay={0.1}>
-                                          <h1 className='md:text-xl text-xs left-2 lg:left-8 relative'>( Web Designer & Developer ) </h1>
+                                          <h1 className='md:text-xl text-xs left-2 lg:left-8 relative bottom-3'>( Web Designer & Developer ) </h1>
                                    </TextReveal>
                             </div>
                             <div className=" flex justify-between items-end">
                                    <TextReveal delay={0.1} animateOnScroll={false}>
-                                          <h1 className='uppercase md:text-2xl lg:text-sm'>
-                                                 &copy; 2025 <br />
-                                                 <span className='text-2xl md:text-5xl lg:text-3xl'> the Jekey!</span>
-                                                 <br />
-                                                 All rights reserved.
+                                          <h1 className='uppercase md:text-2xl lg:text-sm leading-4 tracking-tight'>
+                                                 <h1>&copy; 2025</h1>
+                                                 <h1 className='text-2xl md:text-5xl lg:text-3xl'>the Jekey! </h1>
+                                                 <h1>All rights reserved. </h1>
                                           </h1>
                                    </TextReveal>
 

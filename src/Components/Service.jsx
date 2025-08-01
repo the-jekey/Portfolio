@@ -25,7 +25,7 @@ const Service = () => {
           </TextReveal>
           <div className="w-[80%]  relative left-11 lg:left-22">
             <TextReveal delay={0.1}>
-              <p className='text-[13px] md:text-lg  font-[f] pt-2 capitalize tracking-wide  leading-4'>A website developed to captivate and convert can elevate your brand to new heights. My custom-coded sites are crafted to reflect your unique identity.</p>
+              <p className='text-[13px] md:text-lg  font-[f] pt-2 capitalize tracking-wide  leading-4 lg:leading-6'>A website developed to captivate and convert can elevate your brand to new heights. My custom-coded sites are crafted to reflect your unique identity.</p>
             </TextReveal>
             <TextReveal delay={0.1}>
               <div className="pt-4 flex flex-col gap-2 md:text-xl">
@@ -43,7 +43,7 @@ const Service = () => {
           <div className="w-[80%]  relative left-11 lg:left-22">
 
             <TextReveal delay={0.1}>
-              <p className='text-[13px] md:text-lg  font-[f] pt-2 capitalize leading-4 '>Amplify your online presence with a website that truly connects with your audience's feelings and desires. I design stunning.</p>
+              <p className='text-[13px] md:text-lg  font-[f] pt-2 capitalize leading-4 lg:leading-6 '>Amplify your online presence with a website that truly connects with your audience's feelings and desires. I design stunning.</p>
             </TextReveal>
             <TextReveal delay={0.1}>
               <div className="pt-4 flex flex-col gap-2 md:text-xl">
@@ -60,7 +60,7 @@ const Service = () => {
           </TextReveal>
           <div className="w-[80%]  relative left-11 lg:left-22">
             <TextReveal delay={0.1}>
-              <p className='text-[13px] md:text-lg  font-[f] pt-2 capitalize  leading-4'>Your website deserves to be seen. I optimize your online presence to elevate your visibility in search results.</p>
+              <p className='text-[13px] md:text-lg  font-[f] pt-2 capitalize  leading-4 lg:leading-6'>Your website deserves to be seen. I optimize your online presence to elevate your visibility in search results.</p>
             </TextReveal>
             <TextReveal delay={0.1}>
               <div className="pt-4 flex flex-col gap-2 md:text-xl">

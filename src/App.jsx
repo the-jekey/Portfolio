@@ -37,7 +37,7 @@ const App = () => {
             patternRefreshInterval={2}
             patternAlpha={15}
           />
-        <Project />
+          <Project />
           <About />
         </div>
 
