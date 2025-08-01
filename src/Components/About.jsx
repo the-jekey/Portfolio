@@ -16,11 +16,11 @@ const About = () => {
                                    <img className='h-full w-full object-cover object-top-left grayscale-100 active:grayscale-0  transition-all ' src="./image.avif" alt="About" />
                             </div>
 
-                            <div className=" md:w-[50%] text-center">
+                            <div className=" md:w-[50%] text-start">
 
                                    <div className="pl- about  w-full font-['font'] text-[18px] py-5  ">
                                           <TextReveal delay={0.1}>
-                                                 <h1 className='w-[100%] text-center lg:text-2xl text-sm tracking-tigh leading-[120%]'>With a passion for design and development, I take projects from ideation to launch, ensuring a seamless journey that leaves a lasting positive  impact on the digital landscape and your business.</h1>
+                                                 <h1 className='w-[100%] text-start lg:text-2xl text-sm tracking-tigh leading-[120%]'>With a passion for design and development, I take projects from ideation to launch, ensuring a seamless journey that leaves a lasting positive  impact on the digital landscape and your business.</h1>
                                           </TextReveal>
                                    </div>
                                    <div className="about w-full font-['font'] ">
